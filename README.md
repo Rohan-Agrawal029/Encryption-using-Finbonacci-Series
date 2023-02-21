@@ -2,19 +2,23 @@ An implementation of an encryption technique using Fibonacci Series for file enc
 
 It accepts the following command line arguments -
 1) Method: Denotes the program mode - Encryption (e) or Decryption (d).
-Usage: >> python Fibonacci-Encrpytion.py --method e 
-       >> python Fibonacci-Encrpytion.py -m e
-       >> python Fibonacci-Encrpytion.py --method d
-       >> python Fibonacci-Encrpytion.py -m d
+- python Fibonacci-Encrpytion.py --method e  
+- python Fibonacci-Encrpytion.py -m e 
+- python Fibonacci-Encrpytion.py --method d 
+- python Fibonacci-Encrpytion.py -m d
+
 2) Input File Path: Denotes the path to file to be encrpyted.
-Usage: >> python Fibonacci-Encrpytion.py --input encryptMe.txt 
-       >> python Fibonacci-Encrpytion.py -i encryptMe.txt
+- python Fibonacci-Encrpytion.py --input encryptMe.txt 
+- python Fibonacci-Encrpytion.py -i encryptMe.txt
+
 3) Output File Path: Denotes the path to output file that will hold the encrypted text.
-Usage: >> python Fibonacci-Encrpytion.py --output encryptedText.txt 
-       >> python Fibonacci-Encrpytion.py -o encryptedText.txt
+- python Fibonacci-Encrpytion.py --output encryptedText.txt 
+- python Fibonacci-Encrpytion.py -o encryptedText.txt
+
 4) Password: Encryption key/password required to encrypt or decrypt the file.
-Usage: >> python Fibonacci-Encrpytion.py --password MyP@ssword123456 
-       >> python Fibonacci-Encrpytion.py -p MyP@ssword123456 
+- python Fibonacci-Encrpytion.py --password MyP@ssword123456 
+- python Fibonacci-Encrpytion.py -p MyP@ssword123456 
+
 
 
 ALGORITHM USED -
